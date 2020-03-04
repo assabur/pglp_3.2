@@ -5,10 +5,14 @@ public class Employe extends All_Employe {
 	private final double salaire=1500;
 	private int startyear;
 
+	public Employe(int startyear)
+	{
+		this.startyear=startyear;
+	}
 	@Override
-	public double calculsalaire(int startyear) {
+	public double calculsalaire() {
 		// TODO Auto-generated method stub
-		return salaire+(2020-startyear)*20;
+		return this.salaire+(2020-this.startyear)*20;
 	}
 	
 	
