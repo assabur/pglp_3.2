@@ -1,5 +1,9 @@
 package fr.uvsq.solid.pglp_3;
 
-public class All_Employe {
+public abstract class All_Employe {
+	protected double salaire;
+	protected int startyear;
+	public abstract double calculsalaire();
+
 
 }
