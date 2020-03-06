@@ -1,10 +1,9 @@
 package fr.uvsq.solid.pglp_3;
 
-public class Employe extends All_Employe {
-
+public class Employe extends All_Employe 
+{
 	private final double salaire=1500;
 	private int startyear;
-
 	public Employe(int startyear)
 	{
 		this.startyear=startyear;
@@ -14,6 +13,4 @@ public class Employe extends All_Employe {
 		// TODO Auto-generated method stub
 		return this.salaire+(2020-this.startyear)*20;
 	}
-	
-	
 }
